@@ -1,0 +1,29 @@
+# ==========================================
+# .NET / C# standard gitignore
+# ==========================================
+
+# Build output and intermediate directories (machine-specific)
+[Bb]in/
+[Oo]bj/
+
+# Standalone and compiled binaries (Do NOT commit large 70MB+ .exe files to Git)
+executables/
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio / VS Code machine & user specific files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# OS specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

@@ -1,0 +1,46 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run BackPropBase (MSE)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/bin/Debug/net10.0/BackPropagation.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Run Standalone BackPropBase (.exe)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/executables/standalone/BackPropBase.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Run Standalone BackPropCrossEntropy (.exe)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/executables/standalone/BackPropCrossEntropy.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    },
+    {
+      "name": "Run Standalone BackPropWeightDecay (.exe)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/executables/standalone/BackPropWeightDecay.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}
